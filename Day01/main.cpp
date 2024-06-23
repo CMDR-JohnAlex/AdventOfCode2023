@@ -4,7 +4,15 @@ auto Part1(const std::vector<std::string>& input)
 {
 	Utils::Timer timer("Part 1");
 
-	return 0;
+	int result = 0;
+	for (std::string line : input)
+	{
+		line = std::regex_replace(line, std::regex(R"([\D])"), "");
+		result += 10 * (line.front() - '0');
+		result += line.back() - '0';
+	}
+
+	return result;
 }
 
 auto Part2(const std::vector<std::string>& input)
@@ -25,7 +33,7 @@ int main(int argc, char** argv)
 		std::vector<std::string> lines = Utils::ReadFile("PuzzleInput.txt");
 #endif
 		auto result1 = Part1(lines);
-		Utils::CheckResult(result1, 0);
+		Utils::CheckResult(result1, 142);
 
 		auto result2 = Part2(lines);
 		Utils::CheckResult(result2, 0);
