@@ -13,7 +13,8 @@ workspace "AdventOfCode2023"
 	postbuildcommands
 	{
 		'{COPY} "PuzzleInput.txt" "%{cfg.targetdir}"',
-		'{COPY} "PuzzleTestInput.txt" "%{cfg.targetdir}"'
+		'{COPY} "PuzzleTestInput1.txt" "%{cfg.targetdir}"',
+		'{COPY} "PuzzleTestInput2.txt" "%{cfg.targetdir}"'
 	}
 
 	filter "configurations:DebugTest"

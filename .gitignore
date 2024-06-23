@@ -460,3 +460,5 @@ Makefile
 # Puzzle inputs are not allowed to be included according to https://adventofcode.com/about at the section saying: "Can I copy/redistribute part of Advent of Code?"
 PuzzleInput.txt
 PuzzleTestInput.txt
+PuzzleTestInput1.txt
+PuzzleTestInput2.txt
