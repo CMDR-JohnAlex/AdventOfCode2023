@@ -6,8 +6,8 @@
 
 | Question                                            | Part 1                      | Part 2                      |
 | --------------------------------------------------- | --------------------------- | --------------------------- |
-| [2023 Day 1](https://adventofcode.com/2023/day/1)   | <!--[ :star: ](Day01/main.cpp)-->  | <!--[ :star: ](Day01/main.cpp)-->  |
-| [2023 Day 2](https://adventofcode.com/2023/day/2)   |                             |                             |
+| [2023 Day 1](https://adventofcode.com/2023/day/1)   | [ :star: ](Day01/main.cpp)  | [ :star: ](Day01/main.cpp)  |
+| [2023 Day 2](https://adventofcode.com/2023/day/2)   | [ :star: ](Day02/main.cpp)  |                             |
 | [2023 Day 3](https://adventofcode.com/2023/day/3)   |                             |                             |
 | [2023 Day 4](https://adventofcode.com/2023/day/4)   |                             |                             |
 | [2023 Day 5](https://adventofcode.com/2023/day/5)   |                             |                             |
